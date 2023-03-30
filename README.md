@@ -10,7 +10,7 @@ The following modules are required to run the program:
 - torch==1.10.2+cu113
 - torchvision==0.11.3+cu113
 - gpytorch==1.6.0
-- botorch==0.6.0
+- botorch==0.6.0 (for detailed installation guide on botorch, please see https://github.com/pytorch/botorch)
 
 ## Usage
 1. (Installation)Navigate to the **./Monte Carlo** directory which contains Monte Carlo simulation algorithms for different types of FRP reactions compiled with the C language. In the filename of these algorithm files, "photo" or "therm" represents photoinduced or thermal initiation, and "disp" or "coup" represents disproportionation termination or coupling termination. Run the command ```python setup.py install``` to import these algorithm files into the Python environment for calling. It will take only seconds for the installation.
