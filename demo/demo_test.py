@@ -144,7 +144,7 @@ def output(x, obj, con1, con2, filename):
 warnings.filterwarnings('ignore', category=BadInitialCandidatesWarning)
 warnings.filterwarnings('ignore', category=RuntimeWarning)
 
-N_BATCH = 20
+N_BATCH = 10
 MC_SAMPLES = 32
     
 # generate initial training data and initialize model
