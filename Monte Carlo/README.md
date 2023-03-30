@@ -1,7 +1,7 @@
 # Monte Carlo Simulation Procedure
 
 This README file describes the procedure of Monte Carlo simulation used in this work, which is based on the algorithm according to literature.1 Figure 1 describes the flow diagram of the Monte Carlo simulation in this work.
-![flow diagram](./flow diagram.png)
+![flow diagram](./flow-diagram.png)
 
 ## Initialization
 
