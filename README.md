@@ -13,7 +13,7 @@ The following modules are required to run the program:
 - botorch==0.6.0
 
 ## Usage
-1. Navigate to the **./Monte Carlo** directory which contains Monte Carlo simulation algorithms for different types of FRP reactions compiled with the C language. In the filename of these algorithm files, "photo" or "therm" represents photoinduced or thermal initiation, and "disp" or "coup" represents disproportionation termination or coupling termination. Run the command ```python setup.py install``` to import these algorithm files into the Python environment for calling.
+1. (Installation)Navigate to the **./Monte Carlo** directory which contains Monte Carlo simulation algorithms for different types of FRP reactions compiled with the C language. In the filename of these algorithm files, "photo" or "therm" represents photoinduced or thermal initiation, and "disp" or "coup" represents disproportionation termination or coupling termination. Run the command ```python setup.py install``` to import these algorithm files into the Python environment for calling. It will take only seconds for the installation.
 2. In the **./examples/BO** directory, Bayesian optimization .py files are available for optimizing suitable polymerization conditions for a specified type of FRP reaction to achieve any synthesis goal, including narrow molecular weight distribution. You can also modify the code to achieve other optimization goals and constraints. Specify the constrained objective in the following statement:
 ```
 constrained_obj = ConstrainedMCObjective(
