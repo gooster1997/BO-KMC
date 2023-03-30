@@ -8,6 +8,8 @@ To use this demo_test, you need to first compile the Monte Carlo program located
 ## Usage
 After compiling the Monte Carlo program, you can run the "demo_test.py" file to start exploring the conditional space of FRP reactions under light-induced coupling termination. The script runs 10 cycles of Bayesian optimization and outputs the final results in the "output.csv" file.
 
+Please note that the running time of this demo program on an average computer is around 10 minutes.
+
 To run the script, simply navigate to the directory where "demo_test.py" is located and type the following command in the terminal:
 ```
 python demo_test.py
