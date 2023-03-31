@@ -1,6 +1,6 @@
 # Demo test
 
-This is a demo_test designed for quickly running one round of Bayesian optimization cycle. After installing the Monte Carlo program in the "**./Monte Carlo**" folder, users can run the "demo_test.py" file to explore the conditional space of FRP reactions under light-induced coupling termination. The script runs 10 cycles and the final output will be saved in the "output.csv" file, containing a total of 78 sets of simulation results (28 initialization sets + 10*5 optimization sets). The corresponding files have already been uploaded to this folder.
+This is a demo_test designed for quickly running one round of Bayesian optimization cycle. After installing the Monte Carlo program in the "**./Monte Carlo**" folder, users can run the "demo_test.py" file to explore the conditional space of photo-induced FRP reactions under radical coupling. The script runs 10 cycles and the final output will be saved in the "output.csv" file, containing a total of 78 sets of simulation results (28 initialization sets + 10*5 optimization sets). The corresponding files have already been uploaded to this folder.
 
 ## Installation
 To use this demo_test, you need to first compile the Monte Carlo program located in the "**./Monte Carlo**" folder. Please follow the instructions in the README file in the main folder to install and compile the program.
