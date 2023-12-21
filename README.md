@@ -14,10 +14,17 @@ Ensure that the following dependencies and their versions are installed in your 
 - botorch==0.6.0 (for detailed installation guide on botorch, please see https://github.com/pytorch/botorch)
 
 ## 2.Clone the Project
-pass
+```
+git clone https://github.com/your_username/your_project.git
+cd your_project
+```
 ## 3.Install KMC Functions
 Before running the main program, it's necessary to install the KMC calculation files using pypa/build. Follow these steps:
-pass
+```
+python -m build
+cd dist
+pip install YOUR_FILE_NAME.whl
+```
 Replace YOUR_FILE_NAME.whl with the actual name of the generated .whl file in the dist directory.
 Afterward, the installation should be completed.
 
