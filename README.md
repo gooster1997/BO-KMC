@@ -3,7 +3,7 @@
 This project is a space exploration framework that integrates Bayesian optimization and dynamic Monte Carlo simulation. It aims to find suitable sets of reaction parameters for free radical polymerization to achieve lower dispersity.
 
 ## Installation Steps
-## 1.Install Dependencies
+## 1. Install Dependencies
 This project is specifically designed to run in a Linux environment. Installing the KMC program on a Windows environment might result in errors.
 Ensure that the following dependencies and their versions are installed in your environment:
 - python==3.11
@@ -13,12 +13,12 @@ Ensure that the following dependencies and their versions are installed in your 
 - gpytorch==1.6.0
 - botorch==0.6.0 (for detailed installation guide on botorch, please see https://github.com/pytorch/botorch)
 
-## 2.Clone the Project
+## 2. Clone the Project
 ```
 git clone https://github.com/gooster1997/BO-KMC.git
 cd BO-KMC
 ```
-## 3.Install KMC Functions
+## 3. Install KMC Functions
 Before running the main program, it's necessary to install the KMC calculation files using pypa/build. Follow these steps:
 ```
 python -m build
@@ -28,7 +28,7 @@ pip install YOUR_FILE_NAME.whl
 Replace YOUR_FILE_NAME.whl with the actual name of the generated .whl file in the dist directory.
 Afterward, the installation should be completed.
 
-## 4.Running the Project
+## 4. Running the Project
 Run the BO_demo.ipynb file to execute this project.
 
 ## Contribution
