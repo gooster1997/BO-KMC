@@ -16,7 +16,7 @@ Ensure that the following dependencies and their versions are installed in your 
 ## 2.Clone the Project
 ```
 git clone https://github.com/gooster1997/BO-KMC.git
-cd your_project
+cd BO-KMC
 ```
 ## 3.Install KMC Functions
 Before running the main program, it's necessary to install the KMC calculation files using pypa/build. Follow these steps:
