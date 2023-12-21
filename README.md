@@ -15,7 +15,7 @@ Ensure that the following dependencies and their versions are installed in your 
 
 ## 2.Clone the Project
 ```
-git clone https://github.com/your_username/your_project.git
+git clone https://github.com/gooster1997/BO-KMC.git
 cd your_project
 ```
 ## 3.Install KMC Functions
